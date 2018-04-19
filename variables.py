@@ -25,9 +25,9 @@
 # ... Écrivez votre code ici ...
 
 
+ma_variable = 2
 
 print(ma_variable)
-
 
 
 # Exercice 1.2
@@ -41,7 +41,7 @@ print(ma_variable)
 
 texte = "Salut !"
 
-
+print(texte)
 
 # Exercice 1.3
 #
@@ -57,7 +57,7 @@ nombre = 2 # ne pas toucher à cette ligne !
 
 
 
-print(nombre)
+print(nombre+3)
 
 
 # Exercice 1.4
@@ -71,6 +71,17 @@ print(nombre)
 
 
 # ... Écrivez votre code ici ...
+
+nombre_de_client = 0 
+
+nombre_de_client += 2
+
+print(nombre_de_client)
+
+nombre_de_client -= 1
+
+print(nombre_de_client)
+
 
 
 
